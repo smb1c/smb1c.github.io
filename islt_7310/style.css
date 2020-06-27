@@ -1,0 +1,7 @@
+/*overall style rules*/
+body {font-family: sans-serif;
+    font-size: 100%;}
+h1 {color: #0033ff}
+blockquote {font-style: italic}
+copyright {text-decoration: none; font-size 10pt;}
+a:hover {color: darkviolet}
