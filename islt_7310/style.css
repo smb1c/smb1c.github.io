@@ -1,0 +1,21 @@
+/*overall style rules*/
+body {font-family: sans-serif; font-size: 100%}
+/*styles for body elements*/
+img {float: right}
+/*Background gradient "Rainy Ashville" from cssgradient.io*/ 
+background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+h1 {color: #0033ff; font-family: sans-serif; font-weight: bolder; font-size: 300%}
+blockquote {font-style: italic; text-align:center}
+h3 {font-size: 200%; color: #0033cc; font-weight: bold}
+#para {font-style: italic}
+#currentschool {color: #009900}
+#currentjob {color: #009900}
+li {color:#660033}
+/*style for footer*/
+#footertext {font-size: 8pt} 
+a {text-decoration: none} 
+a:link {color:#0044cc}
+a:visited {color: #330066}
+a:hover{color: #660099}
+a:focus {color: #990000}
+a:active {color: #990066}
