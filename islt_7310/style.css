@@ -1,0 +1,18 @@
+/*overall style rules*/
+body {font-family: sans-serif; font-size: 100%}
+/*styles for body elements*/
+img {float: left}
+h1 {color: #0033ff; font-family: serif; font-weight: bolder; font-size: 300%}
+blockquote {font-style: italic; text-align:center}
+h3 {font-size: 200%; color: #0033cc; font-weight: bold}
+#para {font-style: italic}
+#current {color: #009900}
+li {color:#660033}
+/*style for footer*/
+#footertext {font-size: 8pt} 
+a {text-decoration: none} 
+a:link {color:#0044cc}
+a:visited {color: #330066}
+a:hover{color: #660099}
+a:focus {color: #990000}
+a:active {color: #990066}
