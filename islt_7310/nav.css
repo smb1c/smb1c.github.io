@@ -1,0 +1,15 @@
+* {box-sizing: border-box; font-family: sans-serif;
+    margin:0;padding:0;}
+#nav{overflow:hidden;}
+#nav a{float: left; display:block; text-align:center; padding: 14px 16px;}
+#nav_list ul {
+    list-style-type: none;
+    width: 200px;
+    margin-top: 0; 
+    border: 2px; color: #000000;
+    margin-left: 15px;
+    display: inline;
+    padding: 35px 35px 35px 35px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #45046A}
