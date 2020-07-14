@@ -1,0 +1,21 @@
+li.nav {float: left;}
+li.nav a {display: block; padding: 8px;}
+ul.nav {list-style-type: none; padding: 0; margin: 0; overflow: hidden}
+/*dropdown*/
+.dropdown {float: left; position: relative; display: inline-block;}
+.dropdown a {display: block; padding: 8px;}
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 5px 5px;
+  z-index: 1;}
+.dropdown:hover .dropdown-content {
+  display: block;} 
+#hamburger {display: none;}
+@media screen and (max-width: 640px)
+#hamburger {display: none;}
+#menu-icon{background: url(--images/menu-icon.png); display:hidden; width:32px; height:32px;}
