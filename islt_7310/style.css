@@ -1,0 +1,35 @@
+/*Title: Style CSS. Use: Visually style the webpages. Author: Sarah Messmer. School/term: University of Missouri Columbia, Summer 2020. Developed: June 20, 2020. Tested: July 17. Passed on Firefox and Edge browers*/
+body {font-family:'Varta',sans-serif; font-size:100%; 
+     border:5px groove #000000; padding-left: 10px; margin:auto; 
+    background-image: linear-gradient(pink, aqua);}
+p {text-indent: 2em; margin:0; padding: 0px; width: auto;}
+h3 {margin: 0; padding: 0px;font-size:200%; color:#5C2A9D; font-weight: bold; width: auto;}
+h1 {margin:0; padding: 0px; background-color: #F1EBBB; height:auto; width:auto;}
+blockquote {font-style:italic; text-align:center;width: auto;}
+li {color:#B5076B; width: auto; text-decoration-style: solid;}
+/*styles for specific items*/
+form{text-align: left; width: 75%; margin: 20%; padding: 0px;}
+main{width:60%;}
+aside{width:180px; height: 350px; float: right;}
+label{font-size: 15px; text-align: center; padding:0px;}
+#h1name{text-align:center; text-decoration: underline; text-decoration-color:#330066;}
+#h3final{font-size: 150%; font-family:'Varta',sans-serif;}
+#para {font-style:italic; font-size: 100%;}
+#currentschool {color:#006400;}
+#currentjob {color:#006400;}
+#noborder {border:none;}
+#fant:first-letter{font-family:serif; font-weight: bold; font-size: 125%;}
+/*style for footer*/
+#footertext {font-size:8pt; font-weight: bolder; background-color: #F1EBBB; width: 400px; margin-left: 20px; text-indent: 2em;}
+footer {border-top-style:dotted; padding-top:0px; padding-bottom: 0px; width:100%; height: 15px; background-image: url(--images/library_book_painted_frame.jpg); background-blend-mode: lighten;}
+email {text-decoration:none;}
+email:link {color:#0044cc;}
+email:visited {color:#330066;}
+email:hover {color:#990000;}
+email:active {color:#990066;}
+@media print{
+    h1, h3, ul, li, blockquote{font-family: sans-serif; color: #000000;}
+    img{display:none;}
+    #currentschool, #currentjob, #footertext{font-family: sans-serif; color: #000000;}
+    #para{font-family: 'Varta'; color: #000000;}
+}
